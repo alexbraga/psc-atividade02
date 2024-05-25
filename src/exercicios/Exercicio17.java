@@ -17,7 +17,7 @@ public class Exercicio17 {
 
     private static void calculateFactorial(Scanner scanner) {
         int number = scanner.nextInt();
-        int result = 1;
+        long result = 1;
 
         System.out.print("\n" + number + "!=");
         for (int i = number; i >= 1; i--) {
