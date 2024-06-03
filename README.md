@@ -23,7 +23,8 @@ A lista de exercícios encontra-se disponível em https://wiki.python.org.br/Est
 ---
 
 ## Unidade Curricular
-- ### Programação de Soluções Computacionais
+### Programação de Soluções Computacionais
+#### Centro Universitário de Belo Horizonte
 
 #### Professores
   - Alexandre "Montanha" de Oliveira
