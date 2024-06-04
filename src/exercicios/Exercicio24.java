@@ -18,7 +18,11 @@ public class Exercicio24 {
     private static void runAverageCalculatorProgram(Scanner scanner, List<Integer> numbers) {
         handleUserInput(scanner, numbers);
         double result = calculateAverage(numbers);
-        System.out.println("\nA média aritmética das notas é igual a " + result);
+        if (result == 0) {
+            System.out.println("Não foi possível calcular a média aritmética das notas: nenhum valor fornecido");
+        } else {
+            System.out.println("\nA média aritmética das notas é igual a " + result);
+        }
     }
 
     private static void handleUserInput(Scanner scanner, List<Integer> numbers) {
@@ -35,6 +39,10 @@ public class Exercicio24 {
     }
 
     private static double calculateAverage(List<Integer> numbers) {
+        if (numbers.isEmpty()) {
+            return 0;
+        }
+
         int sum = 0;
 
         for (int number : numbers) {
